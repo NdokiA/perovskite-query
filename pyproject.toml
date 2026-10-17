@@ -1,0 +1,13 @@
+[project]
+name = "inorgPerov"
+version = "0.1.0"
+
+[project.scripts]
+filterQuery = "src.filter.filterQuery:main"
+
+[tool.setuptools]
+packages = ["filterUtils"]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
